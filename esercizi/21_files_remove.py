@@ -1,16 +1,12 @@
-# dato un file di nome readme.txt:
-# aprire il file
-# leggere tutto il contenuto del file e stamparlo a video
-# tornare all'inizio del file con il puntatore
-# leggere il file riga per riga e stampare a video ogni riga
+# creare un file con nome 'dacancellare.txt':
+# importare la libreria os
+# richiedere all'utente: vuoi cancellare il file (y/n)
+# se y cancellare il file
+# se n non cancellarlo
+from os import remove
 
-print('**********')
-f = open('readme.txt')
-print(f.read())
+with open('dacancellare.txt', 'w') as f:
+    pass
 
-print('**********')
-f.seek(0)
-for line in f.readlines():
-    print(line, end="")
-
-f.close()
+if input('vuoi cancellare il file (y/n)') == 'y':
+    remove('dacancellare.txt')
