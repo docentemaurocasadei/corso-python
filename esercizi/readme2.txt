@@ -1,0 +1,1 @@
+scritto  da __main__
