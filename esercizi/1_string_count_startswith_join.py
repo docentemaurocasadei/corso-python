@@ -4,7 +4,7 @@
 #split per creare una lista con tutte le parole
 #startswith per identificare se inzia con la parola caro
 #endswith per identificare se termina con gradi
-#definire una tupla ("il", "mio", "nome", "è", "Mauro") e unirla in una stringa
+#definire una tupla ("il", "mio", "nome", "è", "Mauro") e unirla in una stringa separata da spazio con metodo join
 
 
 s="è una giornata mite, il sole è ombreggiato e ci sono 18 gradi"

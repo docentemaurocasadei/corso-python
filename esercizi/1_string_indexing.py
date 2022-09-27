@@ -1,4 +1,4 @@
-#estrarre tramite string indexing il carattere r dalla stringa Mauro e stamparlo
+#estrarre tramite string indexing (slice) il carattere r dalla stringa Mauro e stamparlo
 #estrarre tramite string indexing il carattere o dalla stringa Mauro e stamparlo
 #estrarre tramite string indexing i caratteri ur
 #trovare la lunghezza della parola

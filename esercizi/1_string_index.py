@@ -1,7 +1,7 @@
 #con index
-#ricercare la substring "gatto" nella stringa "il gatto ha mangiato le crocchette" e stampare il valore
-#ricercare la substring "gatto" nella stringa "il cane ha mangiato le crocchette" e stampare il valore
-#ricercare da destra la substring "o" nella stringa "il gatto ha mangiato le crocchette" e stampare il valore
+#ricercare con metodo index la substring "gatto" nella stringa "il gatto ha mangiato le crocchette" e stampare la posizione
+#ricercare con metodo index la substring "gatto" nella stringa "il cane ha mangiato le crocchette" e stampare la posizione
+#ricercare con metodo rindex da destra la substring "o" nella stringa "il gatto ha mangiato le crocchette" e stampare la posizione
 
 s = "il gatto ha mangiato le crocchette"
 print("1 stringa la posizione di gatto:", s.index("gatto")) #1 stringa la posizione di gatto: 3

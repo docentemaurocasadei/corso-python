@@ -1,5 +1,5 @@
 # creare una variabile stringa contenente "programmo in python"
-# stampare la lunghezza di una stringa
+# stampare la lunghezza della stringa
 # stampare True o False a seconda se una stringa da definire esiste nella stringa testando
 # le parole grammo, lunedì, python, codice
 
