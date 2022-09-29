@@ -54,3 +54,34 @@ tutti
 """
 print(str3)
 
+# stringhe sono array
+nome = 'Federica'
+print(nome[1])  # e
+
+frase = 'oggi stiamo lavorando su pycharm scrivendo codice python'
+print('la mia frase è lunga', len(frase))
+
+# parola_da_ricercare = input('parola da cercare: ')
+# print(parola_da_ricercare, 'esiste',
+#       parola_da_ricercare in frase)
+
+# string slicing
+print(nome[1:5])    # eder
+#   [inizio:fine:step]
+print(nome[1:7:2])    # eei
+#dato il nome Alessandro stampare solo Ale
+nome = 'Alessandro'
+print(nome[0:3])
+# estrarre "sandro"
+print(nome[4:])
+print(nome[-6:])
+print(nome[-1:-7:-1])   # ordnas (sandro rovesciato)
+#   stampare Alessandro rovesciato
+print(nome[::-1])
+# arrivati slide 30
+# esercizi:
+# 1_data_type_string_array.py
+# 1_data_type_string_slice.py #
+
+
+
