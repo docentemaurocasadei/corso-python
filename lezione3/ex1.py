@@ -9,8 +9,25 @@ classe = ['Giacomo', 'Ali', 'Alessandro', 'Guido', 'Federica', 'Andrea', 'Giovan
 print('sono presenti alle 9:10:', len(classe), ' persone')
 
 #entra patrizia
-classe.append('patrizia')
+classe.append('Patrizia')
 print('sono presenti alle 9:15:', len(classe), ' persone')
+
+#alle 12:30 arriva Tina, si siede a fianco ad Andrea
+classe.insert(6, 'Tina')
+print('sono presenti alle 12:30:', len(classe), ' persone')
+print(classe)
+
+#alle 13:00 arrivano Giuseppina e Sara
+classe.extend(['Giuseppina', 'Sara'])
+print('sono presenti alle 13:00:', len(classe), ' persone')
+print(classe)
+
+#alle 13:15 esce Giacomo
+classe.remove('Giacomo')
+#oppure
+del classe[0]
+print('sono presenti alle 13:15:', len(classe), ' persone')
+print(classe)
 
 # verifico un presente
 nome = input('verifica un presente, inserisci il nome:')    # è case SENSITIVE
@@ -22,3 +39,4 @@ if nome in classe:
     print(f'è presente {nome}')
 else:
     print(nome, 'NON è presente')
+
