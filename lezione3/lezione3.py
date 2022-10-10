@@ -40,7 +40,7 @@ for numero in range(1000):
 # oppure list comprehension
 lista_numeri1 = [pippo for pippo in range(1000)]
 # print(lista_numeri1)
-#aaa
+
 #ordinare le liste
 classe = ['Giacomo', 'Ali', 'Alessandro', 'guido', 'federica', 'Andrea', 'Giovanni', 'Alessandro',
           'Simone', 'Tobia', 'Andrea']
