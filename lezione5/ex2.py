@@ -9,4 +9,20 @@
 # nella variabile lettera e stampata con print
 
 voto = 8
+lettera = None
+if voto == 10:
+    lettera = 'A'
+elif voto == 8:
+    lettera = 'B'
+elif voto == 6:
+    lettera = 'C'
+elif voto == 5:
+    lettera = 'D'
+elif voto == 4:
+    lettera = 'E'
+elif voto == 3:
+    lettera = 'F'
+else:
+    lettera = 'non so...'
 
+print(lettera)

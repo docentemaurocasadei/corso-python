@@ -42,3 +42,26 @@ print(s1)   #{'lea', 'simona', 'stefano', 'carla', 'francesco', 'debora', 'silvi
 
 s.update(gara2)
 print(s)   #{'lea', 'simona', 'stefano', 'carla', 'francesco', 'debora', 'silvia', 'maria'}
+
+francesco = {'nome': 'Francesco', 'età': 32, 'peso': 80}
+print(francesco.keys())
+print(francesco.values())
+print(len(francesco))
+
+#dictionary annidati
+classe = {
+            'marco': {'età': 30, 'peso': 75},
+            'sara': {'età': 29, 'peso': 51},
+            'debora': {'età': 38, 'peso': 55},
+}
+print(classe['marco'])
+
+x=10
+if x>20:
+    print('è maggiore')
+elif x == 20:
+    print('è uguale')
+else:
+    print('è minore')
+
+print('è maggiore') if 10>20 else print('è minore')
