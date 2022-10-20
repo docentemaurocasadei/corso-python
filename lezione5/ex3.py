@@ -9,3 +9,14 @@
 
 temperatura = 48
 condizione = None
+
+if temperatura < 30:
+    condizione = 'Fredda'
+elif temperatura >=30 and temperatura <45:
+    condizione = 'Tiepida'
+elif temperatura >=45 and temperatura <99:
+    condizione = 'Calda'
+elif temperatura >=100:
+    condizione = 'Bolle'
+
+print(condizione)
