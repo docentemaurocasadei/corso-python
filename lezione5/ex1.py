@@ -5,4 +5,5 @@
 # ritornati in ufficio occorre identificare quale contatto è duplicato tra le 2 fiere
 # per farlo:
 # realizzare un loop con ciclo for
-# all'iterno del loop inserire una if con operatore in#
+# all'interno del loop inserire una if con operatore in
+#
