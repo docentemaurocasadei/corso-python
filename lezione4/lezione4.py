@@ -107,4 +107,4 @@ print(len(colleghi3))
 
 #esercizi per casa:
 # 4_tuple, 4_tuple_elements, 4_tuple_modificare_come_list
-# 6_idct, 6_dict_items, 6_dictionary, 6_dictionary_elements, 6_dictionary_elements_get
+# 6_dict, 6_dict_items, 6_dictionary, 6_dictionary_elements, 6_dictionary_elements_get
