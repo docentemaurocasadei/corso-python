@@ -47,3 +47,4 @@ for atleta in classifica:
     else:
         break
 print('hanno vinto:', list(podio))
+
