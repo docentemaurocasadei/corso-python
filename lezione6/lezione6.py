@@ -57,13 +57,22 @@ print(numeri)
 
 # definire e stampare una lista, una tupla, un set e un dictionary
 # la stampa deve essere sia della variabile che del suo type
+def stampa():
+    #print('lista: ', type(l), l)
+    print('oggi è il 25 ottobre')
 
 l = [1,2,3]
-print('lista: ', l, type(l))
-t = (1,2,3)
-print('tupla: ', t, type(t))
-s = {1,2,3}
-print('set: ', s, type(s))
-d = {'nome': 'Marco', 'cognome': 'Rossi'}
-print('dict: ', d, type(d))
+stampa()
+stampa()
+stampa()
+stampa()
+stampa()
+stampa()
+#
+# t = (1,2,3)
+# print('tupla: ', type(t), t)
+# s = {1,2,3}
+# print('set: ', type(s), s)
+# d = {'nome': 'Marco', 'cognome': 'Rossi'}
+# print('dict: ', type(d), d)
 
