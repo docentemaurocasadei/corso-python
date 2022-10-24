@@ -30,3 +30,20 @@ for persona in classe:
         print(f'{persona} è uomo')
     print(f'{persona} salta')
 
+classifica = [
+                {'nome': 'marco', 'punti': 100},
+                {'nome': 'gianni', 'punti': 90},
+                {'nome': 'silvia', 'punti': 85},
+                {'nome': 'stefano', 'punti': 82},
+                {'nome': 'martino', 'punti': 75},
+                {'nome': 'davide', 'punti': 70},
+                {'nome': 'daniela', 'punti': 69},
+                ]
+
+podio = set()
+for atleta in classifica:
+    if len(podio) <= 2:
+        podio.add(atleta['nome'])
+    else:
+        break
+print('hanno vinto:', list(podio))
