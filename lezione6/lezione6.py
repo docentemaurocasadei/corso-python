@@ -69,7 +69,11 @@ stampa('tupla', t)
 stampa('set', s)
 stampa('dictionary', d)
 
-
+#esercizi per casa:
+# 9_while_else.py, 9_while_else_break.py
+# 10_for.py, 10_for_continue.py, 10_for_range.py
+# 11_func_args.py, 11_func_args2.py, 11_func_args3.py, 11_func_args3_somma.py
+# 11_function.py
 
 def calcola(n1, n2, n3):
     print(n1 * n2 / n3)

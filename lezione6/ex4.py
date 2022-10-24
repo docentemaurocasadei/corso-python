@@ -22,13 +22,23 @@ somma(5, 8, 3, 2)
 somma(5, 8)
 somma(5, 8, 8, 9, 3, 4)
 #vorrei che la funzione prendesse un parametro per indicare l'operazione
-def calcola_dinamica(*args):
+def calcola_dinamica(operatore, *args):
     risultato = 0
+    if operatore in ['*', '/']:
+        risultato = 1
     for numero in args:
-        risultato += numero
+        if operatore == '+':
+            risultato += numero
+        elif operatore == '-':
+            risultato -= numero
+        elif operatore == '*':
+            risultato *= numero
+        elif operatore == '/':
+            risultato /= numero
     print(risultato)
 
-calcola_dinamica(4, 5, 6, 3)
-calcola_dinamica(5, 8, 3, 2)
-calcola_dinamica(5, 8)
-calcola_dinamica(5, 8, 8, 9, 3, 4)
+
+calcola_dinamica('*', 4, 5, 6, 3)
+calcola_dinamica('+', 5, 8, 3, 2)
+calcola_dinamica('-', 5, 8)
+calcola_dinamica('/', 5, 8, 8, 9, 3, 4)
