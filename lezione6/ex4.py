@@ -35,10 +35,11 @@ def calcola_dinamica(operatore, *args):
             risultato *= numero
         elif operatore == '/':
             risultato /= numero
-    print(risultato)
+    return risultato
 
 
-calcola_dinamica('*', 4, 5, 6, 3)
-calcola_dinamica('+', 5, 8, 3, 2)
-calcola_dinamica('-', 5, 8)
-calcola_dinamica('/', 5, 8, 8, 9, 3, 4)
+risultato = calcola_dinamica('*', 4, 5, 6, 3)
+print('hai totalizzato punti: ', risultato ** 2)
+risultato = calcola_dinamica('+', 5, 8, 3, 2)
+risultato = calcola_dinamica('-', 5, 8)
+risultato = calcola_dinamica('/', 5, 8, 8, 9, 3, 4)
