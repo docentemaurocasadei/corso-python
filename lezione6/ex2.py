@@ -21,7 +21,11 @@ for pettorina in range(1,51):
         break
 
 # eseguire il medesimo esercizio tramite while
-
-
+vincitori = [15, 25, 38]
+pettorina = 1
+while pettorina <= len(range(1,51)):
+    if pettorina in vincitori:
+        print(f'il {pettorina} ha vinto!!')
+    pettorina += 1
 
 # verificare di non sprecare inutilmente tempo e cicli aggiungendo break
