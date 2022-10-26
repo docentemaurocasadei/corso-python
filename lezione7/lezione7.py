@@ -96,10 +96,19 @@ import datetime
 #     print('Non sono riuscito a riconoscerti!')
 #
 # ,rint(datetime.date.today())
-l=[1,5,7,8,10,15,22]
-print(max(l))
-print(min([1,5,7,8,10,15,22]))
-print(round(10.45678,2))
-print(pow(3,4))
-print(sum({1,2,3,4,5,6,7,8}))
+# l=[1,5,7,8,10,15,22]
+# # print(max(l))
+# # print(min([1,5,7,8,10,15,22]))
+# # print(round(10.45678,2))
+# # print(pow(3,4))
+# # print(sum({1,2,3,4,5,6,7,8}))
 
+numero = input('dammi un numero intero, lo divido per 3:')
+try:
+    print('aaaa')
+    print( int(numero) / 3)
+except ValueError as errore:
+    print('hai inserito un valore non valido!')
+except:
+    print('si è verificato un errore non previsto!')
+print('fine esecuzione')
