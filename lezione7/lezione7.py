@@ -114,9 +114,16 @@ import datetime
 # print('fine esecuzione')
 
 try:
-    f = open('budget.csv', 'r')
-    for linea in f:
-        print(linea)
-    f.close()
+    with open('budget.csv', 'r') as f:
+        risultato = 0
+        for linea in f:
+            l = linea.split(',')
+            importo = float(l[1])
+            risultato += importo
+    print(risultato)
 except Exception as e:
     print('errore durante l\'elaborazione del file budget', e)
+
+# esercizi: 14_libreria_random.py, 14_libreria_math.py, 19_libreria_datetime.py
+# 21_files_lineNumber.py, 21_files_method1.py, 21_files_method2.py
+# 21_files_method_with.py
