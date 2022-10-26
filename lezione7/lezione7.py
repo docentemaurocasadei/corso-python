@@ -2,6 +2,7 @@
 # import random
 import random as rnd
 from funzioni import accesso
+import datetime
 # l = ['carlo', 'sara', 'francesca', 'maria', 'stefano']
 # # for
 # for nome in l:
@@ -84,13 +85,21 @@ from funzioni import accesso
 # numero = input('dammi un numero da 1 a 10:')
 # n = random.randint(1,10)
 # print(f'il numero era questo: {n}?')
-
-l = [1,2,3,4,5]
-rnd.shuffle(l)
-print(l)
-
-if accesso('giovanni', '1234'):
-    print('Benvenuto!')
-else:
-    print('Non sono riuscito a riconoscerti!')
+#
+# l = [1,2,3,4,5]
+# rnd.shuffle(l)
+# print(l)
+#
+# if accesso('giovanni', '1234'):
+#     print('Benvenuto!')
+# else:
+#     print('Non sono riuscito a riconoscerti!')
+#
+# ,rint(datetime.date.today())
+l=[1,5,7,8,10,15,22]
+print(max(l))
+print(min([1,5,7,8,10,15,22]))
+print(round(10.45678,2))
+print(pow(3,4))
+print(sum({1,2,3,4,5,6,7,8}))
 
