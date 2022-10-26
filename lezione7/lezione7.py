@@ -55,16 +55,23 @@
 # ris = dividi(p2=2, p1=5)
 # print(ris)
 
-def prodotto(divisore, *args,**kargs):
-    print(args)
-    print(kargs)
-    risultato = 1
-    for numero in args:
-        risultato *= numero
-    return risultato / divisore
+# def prodotto(divisore, *args,**kargs):
+#     print(args)
+#     print(kargs)
+#     risultato = 1
+#     for numero in args:
+#         risultato *= numero
+#     return risultato / divisore
+#
+# ris = prodotto(5,8,7,8,9,9,10,p1=10,p4=15)
+# print(ris)
 
-ris = prodotto(5,8,7,8,9,9,10,p1=10,p4=15)
-print(ris)
+x = 10
+def mia_func():
+    print(f'dentro dalla funzione {x}')
+
+print(f'fuori dalla funzione {x}')
+mia_func()
 
 
 
