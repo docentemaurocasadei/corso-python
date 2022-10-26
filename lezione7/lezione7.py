@@ -103,12 +103,20 @@ import datetime
 # # print(pow(3,4))
 # # print(sum({1,2,3,4,5,6,7,8}))
 
-numero = input('dammi un numero intero, lo divido per 3:')
+# numero = input('dammi un numero intero, lo divido per 3:')
+# try:
+#     print('aaaa')
+#     print( int(numero) / 3)
+# except ValueError as errore:
+#     print('hai inserito un valore non valido!')
+# except:
+#     print('si è verificato un errore non previsto!')
+# print('fine esecuzione')
+
 try:
-    print('aaaa')
-    print( int(numero) / 3)
-except ValueError as errore:
-    print('hai inserito un valore non valido!')
-except:
-    print('si è verificato un errore non previsto!')
-print('fine esecuzione')
+    f = open('budget.csv', 'r')
+    for linea in f:
+        print(linea)
+    f.close()
+except Exception as e:
+    print('errore durante l\'elaborazione del file budget', e)
