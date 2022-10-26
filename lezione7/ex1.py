@@ -1,3 +1,4 @@
+from funzioni import accesso
 # creare una funzione che accetta 2 parametri login e password
 # (la password in chiaro anche se non si potrebbe)
 # se login == 'giovanni' e password == '1234'
@@ -7,12 +8,6 @@
 # stampare il messaggio
 # Benvenuto + login se utente e password sono corretti
 # Login Errata se utente e password NON sono corretti#
-
-def accesso(login, password):
-    if login == 'giovanni' and password=='1234':
-        return True
-    else:
-        return False
 
 login = input('inserisci l\'utente:')
 password = input('inserisci la password:')

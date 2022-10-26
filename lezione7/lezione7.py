@@ -1,3 +1,7 @@
+# from random import randint, shuffle
+# import random
+import random as rnd
+from funzioni import accesso
 # l = ['carlo', 'sara', 'francesca', 'maria', 'stefano']
 # # for
 # for nome in l:
@@ -66,14 +70,27 @@
 # ris = prodotto(5,8,7,8,9,9,10,p1=10,p4=15)
 # print(ris)
 
-x = 10
-def mia_func():
-    print(f'dentro dalla funzione {x}')
+# x = 10
+# def mia_func():
+#     global x
+#     x = 5
+#     print(f'dentro alla funzione {x}')
+#
+# mia_func()
+# print(f'fuori dalla funzione {x}')
+#
+# x=5
+#
+# numero = input('dammi un numero da 1 a 10:')
+# n = random.randint(1,10)
+# print(f'il numero era questo: {n}?')
 
-print(f'fuori dalla funzione {x}')
-mia_func()
+l = [1,2,3,4,5]
+rnd.shuffle(l)
+print(l)
 
-
-
-
+if accesso('giovanni', '1234'):
+    print('Benvenuto!')
+else:
+    print('Non sono riuscito a riconoscerti!')
 
