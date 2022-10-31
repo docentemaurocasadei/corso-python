@@ -82,3 +82,6 @@ try:
 
 except Exception as e:
     print(e)
+
+#esercizi per casa:
+# 20_mysql_connect_select.py, 20_mysql_connect_update.py,20_mysql_connect_insert.py
