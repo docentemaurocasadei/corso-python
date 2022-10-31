@@ -9,6 +9,7 @@
 # leggere la tabella con tutti i record e stampare nome + codice
 import mysql.connector
 try:
+    #input
     nominativo = input('inserisci il nominativo:')
     codice = input('inserisci il codice:')
     #creo la connessione
@@ -17,13 +18,11 @@ try:
     )
     #creo il cursore
     cursore = cn.cursor(dictionary=True)
-    # inserisci()
+    # inserisci
     query = "INSERT INTO timbrature (codice, nominativo) VALUES(%s, %s)"
-    # eseguo la query
     cursore.execute(query, [codice, nominativo])
-    # commit / rollback
     cn.commit()
-    # aggiorna()
+    # lettura
     query = "SELECT * FROM timbrature"
     cursore.execute(query)
     risultati = cursore.fetchall()
