@@ -95,7 +95,7 @@ import datetime
 # else:
 #     print('Non sono riuscito a riconoscerti!')
 #
-# ,rint(datetime.date.today())
+# print(datetime.date.today())
 # l=[1,5,7,8,10,15,22]
 # # print(max(l))
 # # print(min([1,5,7,8,10,15,22]))
