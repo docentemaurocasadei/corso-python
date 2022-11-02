@@ -77,7 +77,7 @@ try:
     cursore = cn.cursor(dictionary=True)
     # inserisci()
     # aggiorna()
-    elimina()
+    # elimina()
     leggi()
 
 except Exception as e:
